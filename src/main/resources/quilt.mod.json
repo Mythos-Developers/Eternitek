@@ -12,14 +12,14 @@
 				"YBOUZL": "Artist"
 			},
 			"contact": {
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"issues": "https://github.com/Mythos-Developers/Eternitek/issues",
+				"sources": "https://github.com/Mythos-Developers/Eternitek"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/eternitek/textures/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "net.mythos.eternitek.EternitekMod"
 		},
 		"depends": [
 			{
@@ -36,5 +36,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "eternitek.mixins.json"
 }
